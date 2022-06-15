@@ -34,7 +34,7 @@ a {
 
 .header-link {
   line-height: 1.1;
-  color: var(--h-text-color);     
+  color: var(--h-text-color);
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -69,7 +69,8 @@ h1 {
   padding: 10px 32px;
 }
 
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--accent-text-color);
   background-color: var(--footer-text-color);
 }
@@ -114,9 +115,9 @@ h1 {
 }
 .footer-link {
   color: var(--footer-text-color);
- }
+}
 .footer-rgba {
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Footer finished */
@@ -142,7 +143,7 @@ h1 {
 /* Filter finished */
 
 /* Examples */
-.examples-head{
+.examples-head {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -150,7 +151,7 @@ h1 {
   color: var(--h-text-color);
 }
 
-.examples-description{
+.examples-description {
   font-size: 16px;
   line-height: 1.9;
   color: var(--main-text-color);
