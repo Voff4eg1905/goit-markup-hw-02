@@ -16,34 +16,46 @@
   <body>
     <!-- header -->
     <header class="header">
-        <nav>
-          <!-- просто вирішив спробувати вбудовані стилі щоб не робити окремий клас для одного спана -->
-          <a href="./index.html" lang="en" class="logo"> <span style="color: #2196F3;">Web</span>Studio</a>  
-          <ul>
-            <li><a href="index.html">Студия</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <!-- просто вирішив спробувати вбудовані стилі щоб не робити окремий клас для одного спана -->
+        <a href="./index.html" lang="en" class="logo">
+          <span style="color: #2196f3">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
         </ul>
-      </header>
+      </nav>
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
     <!-- main -->
     <main>
       <!-- Filter -->
+      <h1 class="hidden">Фильтр Портфолио</h1>
       <section>
-        <h1>Фильтр Портфолио</h1>
-        <button type="button">Все</button>
-        <button type="button">Веб-сайты</button>
-        <button type="button">Приложения</button>
-        <button type="button">Дизайн</button>
-        <button type="button">Маркетинг</button>
+        <ul>
+          <li><button type="button" class="portfolio-button">Все</button></li>
+          <li>
+            <button type="button" class="portfolio-button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Приложения</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Маркетинг</button>
+          </li>
+        </ul>
       </section>
       <!-- Examples  -->
-      <section>
-        <h1>Примеры работ</h1>
+      <section class="examples">
+        <h1 class="hidden">Примеры работ</h1>
         <ul>
           <li>
             <a href=""
@@ -97,8 +109,8 @@
                 width="370"
               />
               <h2>Проект Boxes</h2>
-              <p>Приложение</p></a
-            >
+              <p>Приложение</p>
+            </a>
           </li>
           <li>
             <a href=""
@@ -119,8 +131,8 @@
                 width="370"
               />
               <h2>Издание Limited Edition</h2>
-              <p></p>
-              Дизайн</a
+              <p>Дизайн</p>
+              </a
             >
           </li>
           <li>
@@ -138,23 +150,33 @@
                 width="370"
               />
               <h2 lang="en">Growing Business</h2>
-              <p></p>
-              Приложение</a
+              <p>Приложение</p>
+              </a
             >
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-        <a href="./index.html" lang="en" class="logo"> <span style="color: #2196F3;">Web</span>Studio</a> 
+    <footer class="footer">
+      <a href="./index.html" lang="en" class="logo">
+        <span style="color: #2196f3">Web</span>Studio</a
+      >
       <address>
         <ul>
           <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
           <li>
-            <a href="mailto:info@example.com" lang="en">info@example.com</a>
+            <a
+              href="mailto:info@example.com"
+              style="color: rgba(255, 255, 255, 0.6)"
+              >info@example.com</a
+            >
           </li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a href="tel:+380991111111" style="color: rgba(255, 255, 255, 0.6)"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
