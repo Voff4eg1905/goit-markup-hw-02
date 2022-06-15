@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -22,14 +23,14 @@
           <span style="color: #2196f3">Web</span>Studio</a
         >
         <ul>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="index.html" class="header-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="header-link">Портфолио</a></li>
+          <li><a href="" class="header-link">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
@@ -98,36 +99,36 @@
           <li>
             <img src="./images/Our.team/1.jpg" alt="Игорь" width="270" />
             <h3 class="title">Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+            <p lang="en" class="team-description">Product Designer</p>
           </li>
           <li>
             <img src="./images/Our.team/2.jpg" alt="Ольга" width="270" />
             <h3 class="title">Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+            <p lang="en" class="team-description">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/Our.team/3.jpg" alt="Николай" width="270" />
             <h3 class="title">Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <p lang="en" class="team-description">Marketing</p>
           </li>
           <li>
             <img src="./images/Our.team/4.jpg" alt="Михаил" width="270" />
             <h3 class="title">Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <p lang="en" class="team-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-       <a href="./index.html" lang="en" class="logo">
+       <a href="./index.html" lang="en" class="logo footer-link">
         <span style="color: #2196f3">Web</span>Studio</a
       >
       <address>
         <ul>
-          <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-          <li><a href="mailto:info@example.com" style="color: rgba(255, 255, 255, 0.6)">info@example.com</a></li>
-          <li><a href="tel:+380991111111" style="color: rgba(255, 255, 255, 0.6)">+38 099 111 11 11</a></li>
+          <li><a href="" class="footer-link">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <li><a href="mailto:info@example.com" class="footer-rgba">info@example.com</a></li>
+          <li><a href="tel:+380991111111" class="footer-rgba">+38 099 111 11 11</a></li>
         </ul>
       </address>
           </footer>

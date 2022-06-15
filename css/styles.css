@@ -17,41 +17,37 @@ ul {
 
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
-.title {
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: capitalize;
-  color: var(--h-text-color);
-  font-size: 36px;
-}
-
-/* header */
+/* Header */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--h-text-color);
 }
 .header {
   color: var(--h-text-color);
 }
 
-.header a {
+.header-link {
   line-height: 1.1;
-  color: var(--h-text-color);
+  color: var(--h-text-color);     
   font-weight: 500;
   letter-spacing: 0.02em;
- }
-.header a:hover,
-.header a:focus {
+}
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-text-color);
   cursor: pointer;
 }
+/* Header finished */
+
 /* main */
 
-/* hero */
+/* Hero */
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -73,37 +69,61 @@ h1 {
   padding: 10px 32px;
 }
 
+.hero-button:hover, .hero-button:focus {
+  color: var(--accent-text-color);
+  background-color: var(--footer-text-color);
+}
+/* Hero finished */
+
+/* Features */
 .hidden {
   display: none;
+}
+
+.title {
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: var(--h-text-color);
+  font-size: 36px;
 }
 
 .features .title {
   font-size: 14px;
   text-transform: uppercase;
 }
+/* Features finished */
 
-.team ul .title {
+/* Our team */
+.team .title {
   font-weight: 500;
   font-size: 16px;
 }
 
-.team p {
+.team-description {
   font-size: 16px;
   line-height: 1.2;
 }
+/* Our team finished */
 
+/* Footer */
 .footer {
   background-color: #2f303a;
   padding: 60px 1154px 215px;
   display: inline-block;
 }
-.footer a {
+.footer-link {
   color: var(--footer-text-color);
-  font-style: normal;
+ }
+.footer-rgba {
+  color: rgba(255, 255, 255, 0.6)
 }
+
+/* Footer finished */
 
 /* Portfolio */
 
+/* Filter */
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
@@ -119,8 +139,10 @@ h1 {
   background-color: var(--accent-text-color);
   color: var(--footer-text-color);
 }
+/* Filter finished */
 
-.examples h2 {
+/* Examples */
+.examples-head{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -128,9 +150,8 @@ h1 {
   color: var(--h-text-color);
 }
 
-.examples p {
+.examples-description{
   font-size: 16px;
   line-height: 1.9;
-  color: var(--main-text-color)
-
+  color: var(--main-text-color);
 }
