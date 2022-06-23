@@ -16,24 +16,30 @@
   <body>
     <!-- header -->
     <header class="header">
-      <nav>
+      <nav class="header-nav">
         <!-- просто вирішив спробувати вбудовані стилі щоб не робити окремий клас для одного спана -->
         <a href="./index.html" lang="en" class="logo">
           <span style="color: #2196f3">Web</span>Studio</a
         >
-        <ul>
-          <li><a href="index.html" class="header-link">Студия</a></li>
-          <li><a href="./portfolio.html" class="header-link">Портфолио</a></li>
-          <li><a href="" class="header-link">Контакты</a></li>
+        <ul class="header-pages">
+          <li class="header-pages-list">
+            <a href="index.html" class="header-link">Студия</a>
+          </li>
+          <li class="header-pages-list">
+            <a href="./portfolio.html" class="header-link">Портфолио</a>
+          </li>
+          <li class="header-pages-list">
+            <a href="" class="header-link">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="header-contacts">
+        <li class="header-contacts-list">
           <a href="mailto:info@devstudio.com" class="header-link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="header-contacts-list">
           <a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a>
         </li>
       </ul>
@@ -43,18 +49,18 @@
       <!-- Filter -->
       <section>
         <h1 class="hidden">Фильтр Портфолио</h1>
-        <ul>
-          <li><button type="button" class="portfolio-button">Все</button></li>
-          <li>
+        <ul class="portfolio">
+          <li class="portfolio-list"><button type="button" class="portfolio-button">Все</button></li>
+          <li class="portfolio-list">
             <button type="button" class="portfolio-button">Веб-сайты</button>
           </li>
-          <li>
+          <li class="portfolio-list">
             <button type="button" class="portfolio-button">Приложения</button>
           </li>
-          <li>
+          <li class="portfolio-list">
             <button type="button" class="portfolio-button">Дизайн</button>
           </li>
-          <li>
+          <li class="portfolio-list">
             <button type="button" class="portfolio-button">Маркетинг</button>
           </li>
         </ul>
@@ -62,8 +68,8 @@
       <!-- Examples  -->
       <section class="examples">
         <h1 class="hidden">Примеры работ</h1>
-        <ul>
-          <li>
+        <ul class="examples-list">
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Technocrack.jpg"
@@ -74,7 +80,7 @@
               <p class="examples-description">Веб-сайт</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Poster.jpg"
@@ -87,7 +93,7 @@
               <p class="examples-description">Дизайн</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Seafood.jpg"
@@ -98,7 +104,7 @@
               <p class="examples-description">Приложение</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Prime.jpg"
@@ -109,7 +115,7 @@
               <p class="examples-description">Маркетинг</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Boxes.jpg"
@@ -120,7 +126,7 @@
               <p class="examples-description">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Inspiration.jpg"
@@ -133,7 +139,7 @@
               <p class="examples-description">Веб-сайт</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Limited.jpg"
@@ -144,14 +150,14 @@
               <p class="examples-description">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img src="./images/Examples/Lab.jpg" alt="Лейбл" width="370" />
               <h2 class="examples-head">Проект LAB</h2>
               <p class="examples-description">Маркетинг</p></a
             >
           </li>
-          <li>
+          <li class="examples-item">
             <a href=""
               ><img
                 src="./images/Examples/Business.jpg"
@@ -166,12 +172,13 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
+   <footer class="footer">
+      <div class="footer-wrapper">
       <a href="./index.html" lang="en" class="logo footer-link">
         <span style="color: #2196f3">Web</span>Studio</a
       >
       <address>
-        <ul>
+        <ul class="footer-list">
           <li>
             <a href="" class="footer-link">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
@@ -187,6 +194,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
