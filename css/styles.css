@@ -269,6 +269,9 @@ a {
   background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
+.examples-item:nth-child(3n+3) {
+  margin-right: 0px;
+}
 .examples-head {
   font-weight: 700;
   font-size: 18px;
